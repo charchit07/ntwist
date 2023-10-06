@@ -1,0 +1,217 @@
+
+/* .Features{
+    margin-top: 50px;
+    padding-left: 5%;
+   
+ } */
+ 
+ .F1{
+     margin-top: 100px;
+     text-align: left;
+     font-size: 30px;
+     padding-top: 20px;
+ }
+ 
+ 
+ .Middle_1{
+     margin-top: 50px;
+     display: grid;
+     grid-template-columns: repeat(2,50%);
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .Middle_1 >div{
+     padding-left: 50px;
+ }
+ 
+ .Features_1{
+     margin-top: 100px;
+     display: grid;
+     grid-template-columns: repeat(2,50%);
+     gap:5px;
+     align-items: center;
+     justify-content: space-between;
+     /* border: 1px solid red; */
+ }
+ 
+  /* .Features_1 >div{
+     border: 1px solid ;
+     padding-left: 50px;
+  } */
+ .para{
+     /* text-align: left;
+     font-size: 25px;
+     word-spacing: 3px;
+     color: #454555; */
+     word-spacing: 3px;
+ }
+ 
+ .live{
+     /* border: 1px solid red; */
+     text-align: left;
+     color: #F1592A;
+     font-size: 30px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ .image{
+    width:90%;
+ }
+
+ .btn{
+    border: none;
+    width: 20%;
+    height:40px;
+    background-color: #F1592A;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+/* Existing styles for larger screens (greater than 768px) */
+/* Add your existing styles for larger screens here */
+
+/* Media query for screens with a maximum width of 768px */
+
+  
+  /* Media query for screens with a maximum width of 320px */
+ /* Media query for screens with a maximum width of 320px */
+ @media screen and (max-width: 320px) {
+    /* Styles for screens up to 320px width */
+  
+    /* Adjust styles for small screens (max-width: 320px) */
+  
+    .Features {
+      /* Add your specific styles for the Features container for small screens here */
+      margin-top: 20px; /* Example margin adjustment */
+    }
+  
+    .Middle_1 {
+      /* Add your specific styles for Middle_1 for small screens here */
+      margin-top: 20px; /* Example margin adjustment */
+      display: block; /* Adjust display property if needed */
+    }
+  
+    .Middle_1 > div {
+      /* Add your specific styles for the child divs of Middle_1 for small screens here */
+      padding-left: 10px; /* Example padding adjustment */
+    }
+  
+    .Features_1 {
+      /* Add your specific styles for Features_1 for small screens here */
+      margin-top: 20px; /* Example margin adjustment */
+      display: block; /* Adjust display property if needed */
+    }
+  
+    /* Styles for the button */
+    .btn {
+      /* Add your specific styles for the button on small screens here */
+      width: 40%; /* Make the button width 100% to fit within the container */
+      margin-top: 10px; /* Adjust the margin as needed */
+      margin-left: 5%;
+    }
+  
+    /* Styles for the first image */
+    .Middle_1 > div:first-child {
+      /* Add your specific styles for the first image on small screens here */
+      margin-left: 5px;
+      margin-right: 5px;
+      text-align: center; /* Center the image */
+    }
+  
+    /* Add additional styles as needed for small screens */
+  }
+  
+  @media screen and (max-width: 375px) {
+    /* Styles for screens up to 320px width */
+  
+    /* Adjust styles for small screens (max-width: 320px) */
+  
+    .Features {
+      /* Add your specific styles for the Features container for small screens here */
+      margin-top: 20px; /* Example margin adjustment */
+    }
+  
+    .Middle_1 {
+      /* Add your specific styles for Middle_1 for small screens here */
+      margin-top: 20px; /* Example margin adjustment */
+      display: block; /* Adjust display property if needed */
+    }
+  
+    .Middle_1 > div {
+      /* Add your specific styles for the child divs of Middle_1 for small screens here */
+      padding-left: 10px; /* Example padding adjustment */
+    }
+  
+    .Features_1 {
+      /* Add your specific styles for Features_1 for small screens here */
+      margin-top: 20px; /* Example margin adjustment */
+      display: block; /* Adjust display property if needed */
+    }
+  
+    /* Styles for the button */
+    .btn {
+      /* Add your specific styles for the button on small screens here */
+      width: 40%; /* Make the button width 100% to fit within the container */
+      margin-top: 10px; /* Adjust the margin as needed */
+      margin-left: 5%;
+    }
+  
+    /* Styles for the first image */
+    .Middle_1 > div:first-child {
+      /* Add your specific styles for the first image on small screens here */
+      margin-left: 5px;
+      margin-right: 5px;
+      text-align: center; /* Center the image */
+    }
+  
+    /* Add additional styles as needed for small screens */
+  }
+  
+  @media screen and (max-width: 425px) {
+    /* Styles for screens up to 320px width */
+  
+    /* Adjust styles for small screens (max-width: 320px) */
+  
+    .Features {
+      /* Add your specific styles for the Features container for small screens here */
+      margin-top: 20px; /* Example margin adjustment */
+    }
+  
+    .Middle_1 {
+      /* Add your specific styles for Middle_1 for small screens here */
+      margin-top: 20px; /* Example margin adjustment */
+      display: block; /* Adjust display property if needed */
+    }
+  
+    .Middle_1 > div {
+      /* Add your specific styles for the child divs of Middle_1 for small screens here */
+      padding-left: 10px; /* Example padding adjustment */
+    }
+  
+    .Features_1 {
+      /* Add your specific styles for Features_1 for small screens here */
+      margin-top: 20px; /* Example margin adjustment */
+      display: block; /* Adjust display property if needed */
+    }
+  
+    /* Styles for the button */
+    .btn {
+      /* Add your specific styles for the button on small screens here */
+      width: 40%; /* Make the button width 100% to fit within the container */
+      margin-top: 10px; /* Adjust the margin as needed */
+      margin-left: 5%;
+    }
+  
+    /* Styles for the first image */
+    .Middle_1 > div:first-child {
+      /* Add your specific styles for the first image on small screens here */
+      margin-left: 5px;
+      margin-right: 5px;
+      text-align: center; /* Center the image */
+    }
+  
+    /* Add additional styles as needed for small screens */
+  }
