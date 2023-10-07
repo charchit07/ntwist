@@ -12,16 +12,9 @@
     width: 18%;
     margin: auto;
     color: white;
-    /* height: auto; */
-    /* height: 20px; */
-    /* border: 1px solid red; */
-    /* padding-left:3%; */
-    /* padding:15px; */
-    /* border: 1px solid red; */
 }
 
 .heading {
-    /* border: 1px solid red; */
     width: 35%;
     display: flex;
     justify-content: space-evenly;
@@ -70,11 +63,6 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-/* Your existing styles */
-
-/* Your existing styles */
-
-/* Your existing styles */
 
 @media screen and (max-width: 320px) {
     .container {
@@ -153,7 +141,7 @@
         grid-template-columns: repeat(3,1fr);
         align-items: center;
         gap:20px;
-        /* text-align: center; */
+
     }
 
     .icon {
